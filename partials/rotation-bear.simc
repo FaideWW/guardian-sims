@@ -1,0 +1,15 @@
+actions.precombat=bear_form
+
+actions=auto_attack
+actions+=/barkskin
+actions+=/lunar_beam
+actions+=/maul,if=rage.deficit<10
+actions+=/pulverize,if=dot.thrash_bear.stack=dot.thrash_bear.max_stacks
+actions+=/moonfire,if=dot.moonfire.refreshable
+actions+=/incarnation
+actions+=/mangle,if=dot.thrash_bear.ticking
+actions+=/moonfire,if=buff.galactic_guardian.up
+actions+=/thrash_bear
+actions+=/maul
+actions+=/swipe_bear
+
